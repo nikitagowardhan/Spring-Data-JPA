@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Welcome to show page
+
+Object Data : <h1 th:text = "${o}">object</h1><br/><br/><br/>
+<div th:object = "${o}">  
+    <h1 th:text = "*{rollno}">F Name</h1>
+    <h1 th:text = "*{uname}">L Name</h1>
+    <h1 th:text = "*{address}">Address</h1>
+ </div> 
+</body>
+</html>
